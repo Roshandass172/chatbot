@@ -1,0 +1,15 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore the virtual environment
+.venv/
+env/
+venv/
+
+# Ignore other unnecessary files or folders
+.DS_Store
+*.log
+
+# Do not ignore the models directory
+!models/
